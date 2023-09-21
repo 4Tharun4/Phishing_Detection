@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Legitimacy Checker</title>
+    <style>
+        /* Style for the dialog box */
+        .dialog {
+            width: 300px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Style for the input field */
+        .link-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        /* Style for the submit button */
+        .submit-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Style for the result message */
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Style for legitimate result */
+        .legitimate {
+            color: green;
+        }
+
+        /* Style for phishing result */
+        .phishing {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form action="predict" method="post">
+    <div class="dialog">
+        <h2>Website Legitimacy Checker</h2>
+        <input type="text" class="link-input" id="websiteLink" placeholder="Paste website link here" name="url">
+        <button type="submit" class="submit-button" >Submit</button>
+        <p class="result" id="legitimacyResult"></p>
+    </div>
+    </form>
+</body>
+</html>

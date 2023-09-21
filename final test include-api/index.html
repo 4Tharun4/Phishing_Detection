@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Website Legitimacy Checker</title>
+</head>
+<body>
+    <div class="img">
+        <img src="logo.gif" alt="">
+    </div>
+    <div id="about">
+        <span class="label">About</span>
+        <div class="tooltip">Our innovation leverages AI/ML to develop a browser extension for real-time phishing protection. It seamlessly integrates with web browsers, actively scans websites and links, blocking and reporting phishing threats to enhance online security. Our user-friendly interface provides real-time updates, ensuring effectiveness against evolving threats.</div>
+    </div>
+    <div class="cover">
+        <div class="dialog">
+            <h1>Website Legitimacy Checker</h1>
+            <form id="legitimacyForm">
+                <input type="text" class="link-input" id="websiteLink" placeholder="Paste website link here"  autocomplete="off" required >
+                <button type="button" class="submit-button" id="check-button" onclick="getvalue()">Check</button>
+            </form>
+            <p class="result" id="legitimacyResult"></p>
+        </div>
+    </div>
+    
+    <div id="loader" hidden="true">
+        <div class="ls-particles ls-part-1"></div>
+        <div class="ls-particles ls-part-2"></div>
+        <div class="ls-particles ls-part-3"></div>
+        <div class="ls-particles ls-part-4"></div>
+        <div class="ls-particles ls-part-5"></div>
+        <div class="lightsaber ls-left ls-green"></div>
+        <div class="lightsaber ls-right ls-red"></div>
+    </div>
+    <div class="BANNER"> 
+        <h1>UPCOMING UPDATES</h1>
+   
+    <div class="ag-format-container">
+        <div class="ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                 RELEASING API FOR WEB APPS
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  04.11.2023
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+            INTEGRATING EXTENSION FOR  BROWSER TO  DETECT PHISHING URL'S
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  24.11.2023
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                AUTOMATIC SENDING EMAILS AND BLOCKING &#160;WHEN THE URL IS DETECTED AS PHISHING
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  04.12.2023
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          
+      
+             
+      
+          
+      </div>
+    </div>
+</body>
+</html>
